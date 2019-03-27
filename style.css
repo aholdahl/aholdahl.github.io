@@ -27,6 +27,9 @@ h4 {
   font-variant: small-caps;
     padding-top: 20px;
 }
+h6 {
+  float: right;
+}
 p {
 }
   
