@@ -1,5 +1,5 @@
 Body{
-font-family: Palatino, serif;
+font-family: Garamond, serif;
   <!--background-image: url(https://new.artsmia.org/wp-content/uploads/2018/07/Theseus-Slaying-the-Centaur-Bianor-564x800.jpg);
   background-size: cover;-->
 }
@@ -19,22 +19,19 @@ h2 {
   font-variant: small-caps;
   font-size: 32px;
 }
-h3 {
-  font-family: Century Gothic,sans-serif;
-  font-variant: small-caps;
-  padding-top: 20px;
+
 }
 h4 {
   font-family: Century Gothic,sans-serif;
   font-variant: small-caps;
     padding-top: 20px;
-  font-size: 24px;
+  font-size: 18px;
 }
 h6 {
-  float: right;
-  font-size: 24px;
+font-weight: normal;
+  font-size: 18px;
 }
 p {
-  font-size: 24px;
+  font-size: 18px;
 }
   
