@@ -4,6 +4,13 @@ font-family: Garamond, serif;
   background-size: cover;-->
 }
 .nav {
+  Padding: 20px
+  background-color: midnight-blue;
+  color: white;
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 56px;
 }
 .main{
     Margin: 30 px;
