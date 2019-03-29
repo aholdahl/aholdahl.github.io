@@ -1,19 +1,21 @@
 Body{
-font-family: Garamond, serif;
-  <!--background-image: url(https://new.artsmia.org/wp-content/uploads/2018/07/Theseus-Slaying-the-Centaur-Bianor-564x800.jpg);
-  background-size: cover;-->
 }
 .nav {
-  Padding: 20px
-  background-color: midnight-blue;
-  color: white;
+  Padding: 20px;
+  background: midnight-blue;
   font-family: Century Gothic, sans-serif;
   font-weight: bold;
   font-variant: small-caps;
   font-size: 56px;
+  color: white;
 }
 .main{
-    Margin: 30 px;
+  background: white;
+  font-family: Garamond, serif;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 18px;
+  color: midnight-blue;
 }
 h1 {
   color: MidnightBlue;
