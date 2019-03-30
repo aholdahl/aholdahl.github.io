@@ -11,6 +11,9 @@ Body{
   font-size: 56px;
   color: white;
 }
+h1 {
+  font-size: 48px;
+}
 .main{
   background: white;
   font-family: Garamond, serif;
@@ -19,12 +22,6 @@ Body{
   font-size: 18px;
   color: midnight-blue;
   line-height: 1.2
-}
-h1 {
-  color: MidnightBlue;
-  font-family: Century Gothic,sans-serif;
-  font-variant: small-caps;
-  font-size: 48px;
 }
 h2 {
   font-family: Century Gothic,sans-serif;
