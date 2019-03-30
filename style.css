@@ -7,8 +7,7 @@ Body{
 .main{
 }
 h1 {
-  margin-top: 50px;
-    margin-left: 50px;
+  margin-top: 25px;
   color: MidnightBlue;
   font-family: Century Gothic,sans-serif;
   font-style: normal;
@@ -18,7 +17,6 @@ h1 {
   line-height: normal;
 }
 h2 {
-    margin-left: 50px;
   color: black;
   font-family: Century Gothic,sans-serif;
   font-style: normal;
@@ -28,17 +26,15 @@ h2 {
   line-height: normal;
 }
 h3 {
-    margin-left: 50px;
   color: black;
   font-family: Century Gothic,sans-serif;
   font-style: normal;
-  font-variant: small-caps;
+  font-variant: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: normal;
 }
 h4 {
-    margin-left: 50px;
   color: black;
   font-family: Century Gothic,sans-serif;
   font-style: normal;
@@ -49,17 +45,15 @@ h4 {
   line-height: normal;
 }
 h6 {
-    margin-left: 50px;
   color: black;
   font-family: Garamond, serif;
-  font-style: italics;
+  font-style: italic;
   font-variant: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: normal;
 }
 p {
-    margin-left: 50px;
   color: black;
   font-family: Garamond, serif;
   font-style: normal;
@@ -69,7 +63,6 @@ p {
   line-height: normal;
 }
 ul {
-    margin-left: 50px;
   color: black;
   font-family: Garamond, serif;
   font-style: normal;
