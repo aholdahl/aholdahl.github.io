@@ -1,7 +1,7 @@
 Body{
 }
 .nav {
-  Padding: 20px;
+  margin: 20px;
   background: midnight-blue;
   font-family: Century Gothic, sans-serif;
   font-weight: bold;
@@ -16,6 +16,7 @@ Body{
   font-variant: normal;
   font-size: 18px;
   color: midnight-blue;
+  line-height: 1.2
 }
 h1 {
   color: MidnightBlue;
