@@ -1,12 +1,14 @@
 Body{
   <!--background-image: url(https://new.artsmia.org/wp-content/uploads/2018/07/Theseus-Slaying-the-Centaur-Bianor-564x800.jpg);
   background-size: cover;-->
+  margin-left: 50px;
 }
 .nav {
 }
 .main{
 }
 h1 {
+  margin-top: 50px;
   color: MidnightBlue;
   font-family: Century Gothic,sans-serif;
   font-style: normal;
@@ -30,7 +32,8 @@ h4 {
   font-style: normal;
   font-variant: small-caps;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
+  text-decoration: underline;
   line-height: normal;
 }
 h6 {
@@ -39,7 +42,7 @@ h6 {
   font-style: italics;
   font-variant: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   line-height: normal;
 }
 p {
