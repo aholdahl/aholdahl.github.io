@@ -1,5 +1,5 @@
 Body{
-  background: midnight-blue;
+  background: olive-green;
 }
 .nav {
   margin: 20px;
@@ -7,12 +7,12 @@ Body{
   font-weight: bold;
   font-variant: small-caps;
   font-size: 56px;
-  color: white;
+  color: black;
 }
 h1 {
 }
 .main{
-  background: white;
+  background: beige;
   font-family: Garamond, serif;
   font-weight: normal;
   font-variant: normal;
