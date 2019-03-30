@@ -45,7 +45,7 @@ h4 {
   font-weight: bold;
   font-size: 22px;
   text-decoration: underline;
-  line-height: 0;
+  line-height: normal;
 }
 h6 {
   color: black;
@@ -54,7 +54,7 @@ h6 {
   font-variant: normal;
   font-weight: normal;
   font-size: 17px;
-  line-height: 0;
+  line-height: normal;
 }
 p {
   color: black;
@@ -63,7 +63,7 @@ p {
   font-variant: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 0;
+  line-height: normal;
 }
 ul {
   color: black;
