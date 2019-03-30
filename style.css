@@ -1,10 +1,8 @@
 Body{
+  background: midnight-blue;
 }
 .nav {
   margin: 20px;
-  box-sizing: content-box;
-  width: extend;
-  background-color: midnight-blue;
   font-family: Century Gothic, sans-serif;
   font-weight: bold;
   font-variant: small-caps;
@@ -12,7 +10,6 @@ Body{
   color: white;
 }
 h1 {
-  font-size: 48px;
 }
 .main{
   background: white;
