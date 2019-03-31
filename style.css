@@ -63,7 +63,6 @@ h4 {
   line-height: normal;
   margin-top: 10px;
   margin-bottom: 5px;
-  display: inline;
 }
 h6 {
   color: #00004d;
@@ -76,7 +75,9 @@ h6 {
   line-height: normal;
   margin-top: 0px;
   margin-bottom: 15px;
-  display: inline;
+}
+br {
+  display: none;
 }
 p {
   color: #00004d;
