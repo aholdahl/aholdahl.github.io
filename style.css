@@ -1,107 +1,75 @@
-.body {
-  background: #fffae6;
-  margin: 0px 30px;
+:root {
+  --primary-color: #00004d;
+  --secondary-color: #531200; 
+  --primary-font: Century Gothic, sans-serif;
+  --secondary-font: Garamond, serif;
 }
 
-.pageTitle {
-  margin-top: 25px;
-  margin-bottom: 0px;
-  color: black;
-  font-family: Century Gothic,sans-serif;
+.body {
+  background: #fffae6;
+  margin: 30px; /* all-around margin so content isn't right-up to the edge */
+  color: var(--primary-color);
+  font-family: var(--primary-font);
   font-style: normal;
-  font-variant: small-caps;
-  font-weight: bold;
-  text-shadow: 1px 1px darkgrey;
-  font-size: 48px;
+  font-variant: normal;
+  font-weight: normal;
   line-height: normal;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  display: block;
 }
 
 .headshot {
   width: 250px;
   max-width: 80%;
-  margin-right: 30px;
-  border: 4px solid #531200;
+  margin: 10px 0px;
+  border: 4px solid var(--secondary-color);
 }
 
 .sectionDivider {
-    border: 3px solid #00004d;
-    margin-top: 30px;
-    margin-bottom: 0px;
+  background-color: var(--primary-color);
+  border: 3px solid var(--primary-color);
+}
+
+.pageTitle, .sectionHeader, .positionTitle {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.pageTitle, .sectionHeader {
+  color: black;
+  text-shadow: 1px 1px darkgrey;
+}
+
+.pageTitle {
+  font-size: 48px;
 }
 
 .sectionHeader {
-  color: black;
-  font-family: Century Gothic,sans-serif;
-  font-style: normal;
-  font-variant: small-caps;
-  font-weight: bold;
   font-size: 38px;
-  text-shadow: 1px 1px darkgrey;
-  line-height: normal;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-.contactInfo {
-  color: #00004d;
-  font-family: Century Gothic,sans-serif;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: normal;
-  margin-top: 0px;
-  margin-bottom: 10px;
 }
 
 .positionTitle {
-  color: #00004d;
-  font-family: Century Gothic,sans-serif;
-  font-style: normal;
-  font-variant: small-caps;
-  font-weight: bold;
   font-size: 22px;
   text-decoration: underline;
-  line-height: normal;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin: 0px;
 }
 
-.dateRange {
-  color: #00004d;
-  font-family: Century Gothic, sans-serif;
-  font-style: normal;
-  font-variant: normal;
+.dateRange, .contactInfo {
   font-weight: normal;
   font-size: 17px;
   text-decoration: none;
-  line-height: normal;
-  margin-top: 0px;
-  margin-bottom: 15px;
+  margin: 0px 0px 10px 0px;
 }
 
-.location {
-  color: #00004d;
-  font-family: Garamond, serif;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
+.location, .list {
+  font-family: var(--secondary-font);
   font-size: 18px;
   text-decoration: none;
-  line-height: normal;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 .list {
-  color: #00004d;
-  font-family: Garamond, serif;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: normal;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.article {
+  margin: 20px 0px;
 }
